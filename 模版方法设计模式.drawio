@@ -1,1 +1,107 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T16:01:30.800Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.8.19" etag="MFwI9lEfeOuG5Ok2_92p" type="github"><diagram name="第 1 页" id="PQC5U3bYEAsYasylPp89">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-10T16:17:14.223Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="H-rmEid2_LmAy30Exmrl" version="20.8.19" type="github">
+  <diagram name="第 1 页" id="PQC5U3bYEAsYasylPp89">
+    <mxGraphModel dx="1026" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-35" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="355" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-1" target="GZn3ecUa3MhzlBVCRMCO-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-9" value="抽奖方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="GZn3ecUa3MhzlBVCRMCO-3">
+          <mxGeometry x="-0.05" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;抽象类&lt;br&gt;AbstractDraw&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-2" target="GZn3ecUa3MhzlBVCRMCO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;检查参数&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-4" target="GZn3ecUa3MhzlBVCRMCO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;检查UC/代币数量&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-5" target="GZn3ecUa3MhzlBVCRMCO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;抽象方法：计算折扣&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;抽象方法：发货&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-16" target="GZn3ecUa3MhzlBVCRMCO-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="320" />
+              <mxPoint x="270" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;限时折扣类&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-17" target="GZn3ecUa3MhzlBVCRMCO-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;十连出紫类&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-19" target="GZn3ecUa3MhzlBVCRMCO-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;实现计算折扣方法&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-20" target="GZn3ecUa3MhzlBVCRMCO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="320" />
+              <mxPoint x="270" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;自定义奖池类&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-23" target="GZn3ecUa3MhzlBVCRMCO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;实现发货方法&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-24" target="GZn3ecUa3MhzlBVCRMCO-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;实现发货方法&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-30" target="GZn3ecUa3MhzlBVCRMCO-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-30" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;指定礼包单&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="554.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="GZn3ecUa3MhzlBVCRMCO-31" target="GZn3ecUa3MhzlBVCRMCO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;自定义奖池随机奖品&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZn3ecUa3MhzlBVCRMCO-36" value="根据时间和配置触发不同的抽奖类型" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="510" y="370" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
