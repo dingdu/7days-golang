@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T16:49:36.457Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="94Jz1n6C0KnPmtJnDY2t" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-11T16:49:58.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dUdEoQsZx7pU5e-RycQ2" version="20.8.19" type="github">
   <diagram name="第 1 页" id="vSXPesGRcccRzlFdrcXZ">
     <mxGraphModel dx="1026" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,7 +46,7 @@
         <mxCell id="cHXS6WIh2ep5NLIJgydF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="cHXS6WIh2ep5NLIJgydF-22" target="cHXS6WIh2ep5NLIJgydF-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cHXS6WIh2ep5NLIJgydF-22" value="&lt;font size=&quot;3&quot;&gt;抽奖序号&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="cHXS6WIh2ep5NLIJgydF-22" value="&lt;font size=&quot;3&quot;&gt;抽奖序号&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="414" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cHXS6WIh2ep5NLIJgydF-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="cHXS6WIh2ep5NLIJgydF-24" target="cHXS6WIh2ep5NLIJgydF-26">
